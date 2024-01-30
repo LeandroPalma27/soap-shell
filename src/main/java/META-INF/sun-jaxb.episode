@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.01.29 a las 04:25:58 PM PET 
+
+  -->
+      
+    <bindings xmlns:tns="http://servicio.reniec.sgws.pnp.gob.pe/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.soap.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarDniMayor">
+                  
+            <class ref="com.soap.wsdl.ConsultarDniMayor"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarDniMayorResponse">
+                  
+            <class ref="com.soap.wsdl.ConsultarDniMayorResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarDniMenor">
+                  
+            <class ref="com.soap.wsdl.ConsultarDniMenor"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarDniMenorResponse">
+                  
+            <class ref="com.soap.wsdl.ConsultarDniMenorResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarNombreMayores">
+                  
+            <class ref="com.soap.wsdl.ConsultarNombreMayores"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarNombreMayoresResponse">
+                  
+            <class ref="com.soap.wsdl.ConsultarNombreMayoresResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarNombreMenores">
+                  
+            <class ref="com.soap.wsdl.ConsultarNombreMenores"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarNombreMenoresResponse">
+                  
+            <class ref="com.soap.wsdl.ConsultarNombreMenoresResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:resultadoReniecDni">
+                  
+            <class ref="com.soap.wsdl.ResultadoReniecDni"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:resultadoReniecNombre">
+                  
+            <class ref="com.soap.wsdl.ResultadoReniecNombre"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
